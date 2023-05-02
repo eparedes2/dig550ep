@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://eparedes2.github.io/dig550ep/poem/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Poem" ] },
+    "homepage": [
+      {
+        "id": "https://www.youtube.com/watch?v=-lTliZO85YM",
+        "type": "Text",
+        "label": { "en": [ "Poem" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://www.youtube.com/",
+        "type": "Agent",
+        "label": { "en": [ "Youtube" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://eparedes2.github.io/dig550ep/poem/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 186.0,
+        "items": [
+          {
+            "id": "https://eparedes2.github.io/dig550ep/poem/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://eparedes2.github.io/dig550ep/poem/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.youtube.com/watch?v=-lTliZO85YM",
+                    "duration": 186.0
+                },
+                "target": "https://eparedes2.github.io/dig550ep/poem/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
